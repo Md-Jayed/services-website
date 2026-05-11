@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     question: 'Are you licensed and insured?',
-    answer: 'Yes, SecurePath is a fully licensed, bonded, and insured locksmith company. Our technicians undergo thorough background checks and continuous training to ensure the highest standards of service.'
+    answer: 'Yes, DFW Rapid Locksmith is a fully licensed, bonded, and insured locksmith company. Our technicians undergo thorough background checks and continuous training to ensure the highest standards of service.'
   }
 ];
 

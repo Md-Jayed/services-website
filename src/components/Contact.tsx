@@ -67,7 +67,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1">Email</div>
-                  <div className="text-lg font-bold text-brand-navy">help@securepath.com</div>
+                  <div className="text-lg font-bold text-brand-navy">help@dfwrapidlocksmith.com</div>
                   <div className="text-xs text-gray-500 font-medium">Quick responses on all inquiries</div>
                 </div>
               </div>

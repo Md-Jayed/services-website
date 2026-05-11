@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Menu, X, KeyRound } from 'lucide-react';
+import { Phone, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '@/src/lib/utils';
 
@@ -43,27 +43,18 @@ export default function Header() {
 
       <header
         className={cn(
-          'fixed top-[28px] left-0 right-0 z-50 transition-all duration-300 border-b border-gray-200/10',
-          scrolled ? 'bg-white shadow-sm py-2' : 'bg-white/95 backdrop-blur-md py-3'
+          'fixed top-[28px] left-0 right-0 z-50 transition-all duration-300 border-b border-white/10',
+          scrolled ? 'bg-brand-navy/95 shadow-lg py-2' : 'bg-brand-navy py-3'
         )}
       >
         <div className="container mx-auto px-4 md:px-8">
           <nav className="flex items-center justify-between">
-            <Link to="/" className="flex items-center gap-2 group">
-              <div className="bg-brand-navy text-brand-gold p-1.5 rounded-lg transform group-hover:scale-105 transition-transform">
-                <KeyRound size={18} />
-              </div>
-              <div className="flex flex-col">
-                <span className={cn(
-                  "text-lg font-black leading-tight tracking-tighter transition-colors",
-                  scrolled ? "text-brand-navy" : "text-brand-navy"
-                )}>
-                  SECURE<span className="text-brand-gold">PATH</span> LOCKS
-                </span>
-                <span className="text-[9px] text-gray-500 font-bold uppercase tracking-widest leading-none">
-                  24/7 Mobile Services
-                </span>
-              </div>
+            <Link to="/" className="flex items-center group">
+              <img 
+                src="https://i.ibb.co/tpkq9b2V/dfw-logo.jpg" 
+                alt="DFW Logo" 
+                className="h-14 w-auto rounded-lg shadow-md"
+              />
             </Link>
 
             {/* Desktop Nav */}
@@ -73,7 +64,7 @@ export default function Header() {
                   <Link
                     key={link.name}
                     to={link.href}
-                    className="text-brand-navy/80 hover:text-brand-gold font-bold transition-colors text-[10px] uppercase tracking-widest"
+                    className="text-white hover:text-brand-gold font-bold transition-colors text-[10px] uppercase tracking-widest"
                   >
                     {link.name}
                   </Link>
@@ -90,7 +81,7 @@ export default function Header() {
 
             {/* Mobile Menu Toggle */}
             <button
-              className="lg:hidden text-brand-navy p-2"
+              className="lg:hidden text-white p-2"
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Toggle menu"
             >

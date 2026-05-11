@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { KeyRound, Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,13 +11,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           {/* Brand Info */}
           <div className="space-y-4">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-brand-navy text-brand-gold rounded-lg flex items-center justify-center">
-                <KeyRound size={18} />
-              </div>
-              <span className="text-xl font-black text-brand-navy tracking-tighter uppercase">
-                SECURE<span className="text-brand-gold">PATH</span>
-              </span>
+            <Link to="/" className="flex items-center">
+              <img 
+                src="https://i.ibb.co/tpkq9b2V/dfw-logo.jpg" 
+                alt="DFW Logo" 
+                className="h-12 w-auto rounded-lg shadow-md"
+              />
             </Link>
             <p className="text-gray-500 font-medium leading-relaxed text-xs">
               Premium 24/7 locksmith services for automotive, residential, and commercial needs. 
@@ -88,7 +87,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3 text-xs font-bold text-brand-navy">
                 <Mail className="text-brand-gold flex-shrink-0" size={16} />
-                <span>help@securepath.com</span>
+                <span>help@dfwrapidlocksmith.com</span>
               </div>
             </div>
           </div>
@@ -102,7 +101,7 @@ export default function Footer() {
               <span key={area} className="text-[9px] text-gray-400 font-bold">{area}</span>
             ))}
           </div>
-          <p className="text-[9px] text-gray-400 font-bold uppercase tracking-widest">© {currentYear} SecurePath. All rights reserved.</p>
+          <p className="text-[9px] text-gray-400 font-bold uppercase tracking-widest">© {currentYear} DFW Rapid Locksmith. All rights reserved.</p>
         </div>
       </div>
     </footer>

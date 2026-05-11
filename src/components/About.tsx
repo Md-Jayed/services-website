@@ -38,11 +38,11 @@ export default function About() {
             className="flex-1"
           >
             <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-navy mb-4 leading-tight">
-              About SecurePath <br />
+              About DFW Rapid <br />
               <span className="text-brand-gold">Locksmith Services</span>
             </h2>
             <p className="text-base text-gray-600 mb-4 leading-relaxed">
-              Founded on the principles of speed, reliability, and unparalleled trust, SecurePath 
+              Founded on the principles of speed, reliability, and unparalleled trust, DFW Rapid Locksmith 
               started as a small local mobile service and has grown into the area's premier security solution provider.
             </p>
             <p className="text-base text-gray-600 mb-6 leading-relaxed font-medium">

@@ -6,7 +6,7 @@ const testimonials = [
   {
     name: 'Sarah Jenkins',
     role: 'Homeowner',
-    content: 'Locked myself out of the house at 11 PM. SecurePath was there in 15 minutes and got me back in within seconds. Professional and well-priced!',
+    content: 'Locked myself out of the house at 11 PM. DFW Rapid Locksmith was there in 15 minutes and got me back in within seconds. Professional and well-priced!',
     rating: 5,
     avatar: 'https://i.pravatar.cc/150?u=sarah'
   },

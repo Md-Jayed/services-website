@@ -120,12 +120,12 @@ const ServiceContext = createContext<ServiceContextType | undefined>(undefined);
 
 export const ServiceProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [services, setServices] = useState<Service[]>(() => {
-    const saved = localStorage.getItem('securepath_services');
+    const saved = localStorage.getItem('dfw_rapid_services');
     return saved ? JSON.parse(saved) : DEFAULT_SERVICES;
   });
 
   useEffect(() => {
-    localStorage.setItem('securepath_services', JSON.stringify(services));
+    localStorage.setItem('dfw_rapid_services', JSON.stringify(services));
   }, [services]);
 
   const addService = (service: Service) => {
