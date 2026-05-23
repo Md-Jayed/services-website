@@ -48,7 +48,7 @@ function HomePage() {
 // Simulated dynamic page for SEO keywords
 function CityServicePage() {
   const { pathname } = useLocation();
-  const slug = pathname.slice(1); // e.g. "locksmith-in-austin"
+  const slug = pathname.slice(1); // e.g. "locksmith-in-dallas"
   const parts = slug.split('-in-');
   const serviceName = parts[0] ? parts[0].split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ') : 'Locksmith';
   const cityName = parts[1] ? parts[1].split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ') : 'Local Area';

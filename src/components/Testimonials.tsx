@@ -38,7 +38,7 @@ export default function Testimonials() {
             className="inline-flex items-center gap-2 bg-brand-gold/10 text-brand-gold px-4 py-1 rounded-full mb-4 font-bold text-xs tracking-widest"
           >
             <Star size={14} className="fill-current" />
-            GOOGLE REVIEWS
+            CLIENT TESTIMONIALS
           </motion.div>
           <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-navy mb-4">
             Hear From Our <span className="text-brand-gold">Clients</span>
@@ -84,12 +84,13 @@ export default function Testimonials() {
         
         <div className="mt-8 text-center">
           <div className="flex flex-col items-center gap-3">
-            <div className="flex items-center gap-2 text-xl font-display font-bold text-brand-navy">
-              Excellent 4.9 out of 5 based on 850+ reviews
+            <div className="flex items-center gap-2 text-xl font-display font-bold text-brand-navy justify-center">
+              Dedicated to 5-Star Service
             </div>
-            <div className="h-6">
-              {/* External trust platforms logos could go here */}
-              <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" className="h-5" />
+            <div className="flex gap-1 justify-center">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} size={18} className="fill-brand-gold text-brand-gold" />
+              ))}
             </div>
           </div>
         </div>

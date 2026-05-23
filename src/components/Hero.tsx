@@ -38,7 +38,7 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="tel:18005550199"
+                href="tel:2149230223"
                 className="bg-brand-gold hover:bg-brand-gold/90 text-brand-navy px-8 py-4 rounded-xl font-black text-lg flex items-center gap-3 shadow-2xl transition-all hover:scale-105 active:scale-95"
               >
                 <Phone size={20} fill="currentColor" />
@@ -62,8 +62,8 @@ export default function Hero() {
               </div>
               <div className="hidden md:block w-px h-10 bg-white/10"></div>
               <div className="flex flex-col">
-                <span className="text-brand-gold text-2xl font-black">4.9/5</span>
-                <span className="text-[10px] text-blue-200 font-bold uppercase tracking-widest mt-1">Google Rating</span>
+                <span className="text-brand-gold text-2xl font-black">5★</span>
+                <span className="text-[10px] text-blue-200 font-bold uppercase tracking-widest mt-1">Customer Rating</span>
               </div>
             </div>
           </motion.div>

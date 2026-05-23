@@ -26,11 +26,11 @@ export default function EmergencyBanner() {
 
           <div className="flex flex-col items-center lg:items-end gap-3 relative z-10">
             <a
-              href="tel:18005550199"
+              href="tel:2149230223"
               className="bg-brand-gold hover:bg-white text-brand-navy px-8 py-4 rounded-2xl flex items-center gap-4 text-2xl md:text-3xl font-black shadow-xl shadow-brand-gold/20 transition-all hover:scale-105 active:scale-95 whitespace-nowrap"
             >
               <Phone size={28} fill="currentColor" />
-              (800) 555-0199
+              (214) 923-0223
             </a>
             <div className="text-brand-gold/70 font-bold flex items-center gap-2 text-xs uppercase tracking-widest">
               <span className="w-2 h-2 bg-brand-gold rounded-full animate-pulse"></span>

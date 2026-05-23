@@ -57,7 +57,7 @@ export default function About() {
                 'Advanced Mobile Equipment',
                 'Transparent Flat-Rate Pricing',
                 'Fully Bonded and Insured',
-                'GSA Certified Safe Experts',
+                'High-Security Lock Experts',
                 'Smart Home Integration Pros'
               ].map((item) => (
                 <div key={item} className="flex items-center gap-3">

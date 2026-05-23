@@ -36,7 +36,7 @@ export default function Header() {
             NOW AVAILABLE: 15 MINUTE RESPONSE TIME
           </span>
           <span className="opacity-30 hidden sm:inline">|</span>
-          <span className="opacity-80 hidden md:inline font-medium uppercase">Serving Austin & Surrounding Areas</span>
+          <span className="opacity-80 hidden md:inline font-medium uppercase">Serving DFW & Surrounding Areas</span>
         </div>
         <div className="font-bold opacity-80 uppercase tracking-widest hidden sm:block italic">License #TX-94821</div>
       </div>
@@ -71,11 +71,11 @@ export default function Header() {
                 ))}
               </div>
               <a
-                href="tel:18005550199"
+                href="tel:2149230223"
                 className="bg-brand-gold hover:bg-brand-gold/90 text-brand-navy px-5 py-2 rounded-full font-black text-xs transition-all hover:scale-105 active:scale-95 shadow-lg shadow-brand-gold/20 flex items-center gap-2"
               >
                 <Phone size={14} fill="currentColor" />
-                (800) 555-0199
+                (214) 923-0223
               </a>
             </div>
 
@@ -111,11 +111,11 @@ export default function Header() {
                   </Link>
                 ))}
                 <a
-                  href="tel:18005550199"
+                  href="tel:2149230223"
                   className="mt-4 bg-brand-gold text-brand-navy w-full max-w-sm py-4 rounded-xl font-bold flex items-center justify-center gap-3 text-xl shadow-xl shadow-brand-gold/20"
                 >
                   <Phone size={24} />
-                  <span>Call Now: (800) 555-0199</span>
+                  <span>Call Now: (214) 923-0223</span>
                 </a>
               </div>
             </motion.div>

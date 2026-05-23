@@ -83,8 +83,8 @@ export default function FAQ() {
               Our support team is available 24/7 to provide estimates and answers to your security concerns.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href="tel:18005550199" className="bg-brand-gold text-brand-navy px-8 py-2.5 rounded-xl font-bold text-base hover:scale-105 transition-transform">
-                Call (800) 555-0199
+              <a href="tel:2149230223" className="bg-brand-gold text-brand-navy px-8 py-2.5 rounded-xl font-bold text-base hover:scale-105 transition-transform">
+                Call (214) 923-0223
               </a>
               <button className="bg-white/10 hover:bg-white/20 text-white px-8 py-2.5 rounded-xl font-bold text-base transition-colors">
                 Email Support

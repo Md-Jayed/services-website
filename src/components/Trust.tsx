@@ -69,9 +69,9 @@ export default function Trust() {
               </div>
               <div className="flex items-center gap-4 bg-brand-bg p-3 rounded-xl">
                 <div className="bg-brand-gold text-brand-navy p-2 rounded-lg font-bold text-lg">
-                  4.9★
+                  5★
                 </div>
-                <div className="font-semibold text-sm text-brand-navy">Average Rating</div>
+                <div className="font-semibold text-sm text-brand-navy">Customer Rating</div>
               </div>
             </div>
           </motion.div>

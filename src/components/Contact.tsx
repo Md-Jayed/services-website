@@ -42,7 +42,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1">Phone</div>
-                  <div className="text-xl font-bold text-brand-navy">(800) 555-0199</div>
+                  <div className="text-xl font-bold text-brand-navy">(214) 923-0223</div>
                   <div className="text-green-600 font-semibold flex items-center gap-2 mt-0.5 text-xs">
                     <span className="w-2 h-2 bg-green-600 rounded-full animate-pulse"></span>
                     Available Now
@@ -56,8 +56,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1">Service Area</div>
-                  <div className="text-lg font-bold text-brand-navy">Greater Austin Metropolitan Area</div>
-                  <div className="text-xs text-gray-500 font-medium">Headquarters: Austin, TX 78701</div>
+                  <div className="text-lg font-bold text-brand-navy">Dallas-Fort Worth Metroplex (DFW)</div>
+                  <div className="text-xs text-gray-500 font-medium">Headquarters: Dallas, TX 75201</div>
                 </div>
               </div>
 
@@ -112,7 +112,7 @@ export default function Contact() {
                     <label className="text-xs font-bold text-brand-navy ml-1">Phone Number</label>
                     <input
                       {...register('phone', { required: 'Phone is required' })}
-                      placeholder="(512) 555-0123"
+                      placeholder="(214) 923-0223"
                       className="w-full bg-white border border-gray-200 rounded-xl px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-brand-gold/50 transition-all text-sm"
                     />
                     {errors.phone && <span className="text-red-500 text-[10px] ml-1">{errors.phone.message}</span>}

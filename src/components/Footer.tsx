@@ -20,7 +20,7 @@ export default function Footer() {
             </Link>
             <p className="text-gray-500 font-medium leading-relaxed text-xs">
               Premium 24/7 locksmith services for automotive, residential, and commercial needs. 
-              Proudly serving Austin and surrounding areas with certified expert technicians.
+              Proudly serving the entire DFW Metroplex including Dallas, Fort Worth, Arlington, Addison, Plano, Irving, Frisco, McKinney, Denton, Garland, Grapevine, Southlake, Flower Mound, Lewisville, Carrollton, Richardson, Mesquite, Rockwall, Mansfield, and surrounding North Texas communities.
             </p>
             <div className="flex gap-3">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -79,11 +79,11 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-start gap-3 text-xs font-bold text-brand-navy">
                 <MapPin className="text-brand-gold flex-shrink-0" size={16} />
-                <span>Austin, TX 78701</span>
+                <span>Dallas, TX 75201</span>
               </div>
               <div className="flex items-center gap-3 text-xs font-bold text-brand-navy">
                 <Phone className="text-brand-gold flex-shrink-0" size={16} />
-                <span>(800) 555-0199</span>
+                <span><a href="tel:2149230223" className="hover:text-brand-gold transition-colors">(214) 923-0223</a></span>
               </div>
               <div className="flex items-center gap-3 text-xs font-bold text-brand-navy">
                 <Mail className="text-brand-gold flex-shrink-0" size={16} />
@@ -97,7 +97,7 @@ export default function Footer() {
         <div className="py-4 border-t border-gray-200 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-2">
             <span className="text-[9px] font-black text-gray-500 tracking-widest uppercase">We Support:</span>
-            {['AUSTIN', 'ROUND ROCK', 'CEDAR PARK', 'GEORGETOWN', 'PFLUGERVILLE', 'SAN MARCOS', 'BUDA', 'KYLE'].map(area => (
+            {['DALLAS', 'FORT WORTH', 'ARLINGTON', 'PLANO', 'FRISCO', 'IRVING', 'MCKINNEY', 'GRAPEVINE'].map(area => (
               <span key={area} className="text-[9px] text-gray-400 font-bold">{area}</span>
             ))}
           </div>

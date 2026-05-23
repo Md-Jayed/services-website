@@ -53,7 +53,7 @@ export default function Services() {
               transition={{ delay: 0.1 }}
               className="text-base text-gray-500 font-medium"
             >
-              Certified locksmiths providing premium security solutions for Austin homeowners and business owners since 2009.
+              Certified locksmiths providing premium security solutions for DFW homeowners and business owners since 2009.
             </motion.p>
           </div>
           <motion.div
