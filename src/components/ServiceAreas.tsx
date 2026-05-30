@@ -89,7 +89,7 @@ export default function ServiceAreas() {
             </p>
           </div>
           <a
-            href="tel:18005550199"
+            href="tel:2149230223"
             className="w-full md:w-auto bg-brand-navy text-white px-8 py-3.5 rounded-xl font-bold text-sm flex items-center justify-center gap-3 hover:scale-105 transition-transform"
           >
             Check Availability

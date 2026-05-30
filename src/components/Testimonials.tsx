@@ -20,7 +20,7 @@ const testimonials = [
   {
     name: 'Michael Chen',
     role: 'Car Owner',
-    content: 'Lost my car keys at the mall. They cut and programmed a new transponder key right on the spot. Saved me a expensive tow to the dealership!',
+    content: 'Locked my keys in the trunk with the engine running at the shopping mall. They arrived incredibly fast and opened the door quickly without a scratch. Fantastic service!',
     rating: 5,
     avatar: 'https://i.pravatar.cc/150?u=michael'
   }

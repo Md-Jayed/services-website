@@ -52,22 +52,22 @@ const DEFAULT_SERVICES: Service[] = [
     id: '2',
     slug: 'automotive',
     title: 'Automotive Locksmith',
-    subtitle: 'Car Key Replacement & Vehicle Security',
-    description: 'Lost or broken car keys? We provide on-site automotive locksmith services including transponder key programming, ignition repairs, and fob replacements. We eliminate the need for an expensive tow to the dealership.',
+    subtitle: 'Vehicle Unlock & Ignition Repair Services',
+    description: 'Locked out of your car or dealing with a broken ignition cylinder? We provide specialized on-site automotive locksmith services including quick vehicle unlock solutions, ignition repairs, and broken key extractions. No towing needed—we come directly to your location.',
     image: 'https://images.unsplash.com/photo-1510133769068-68884a127238?q=80&w=2670&auto=format&fit=crop',
     iconType: 'Car',
     features: [
-      'Transponder Key Programming',
+      'Emergency Car & Trunk Unlocks',
       'Ignition Cylinder Repair',
-      'Key Fob Replacement',
-      'Laser-Cut Key Duplication',
-      'Motorcycle Key Services'
+      'Broken Key Extraction',
+      'Door Lock & Tumbler Repair',
+      'All Vehicle Makes & Models'
     ],
     subServices: [
-      { title: 'Key Replacement', desc: 'Cutting and programming new keys for 99% of vehicles.' },
-      { title: 'Fob Programming', desc: 'Syncing new remote fobs and proximity keys.' },
-      { title: 'Ignition Repair', desc: 'Fixing tumblers or replacing entire ignition units.' },
-      { title: 'Trunk Opening', desc: 'Emergency access to locked trunks and glove boxes.' }
+      { title: 'Ignition Repair', desc: 'Fixing tumblers or replacing faulty ignition lock assemblies.' },
+      { title: 'Vehicle Unlocks', desc: 'Safely and quickly opening locked car doors without damage.' },
+      { title: 'Key Extraction', desc: 'Removing broken or snapped keys from door locks and ignitions.' },
+      { title: 'Trunk Opening', desc: 'Emergency access to locked trunks and utility compartments.' }
     ]
   },
   {
@@ -120,12 +120,12 @@ const ServiceContext = createContext<ServiceContextType | undefined>(undefined);
 
 export const ServiceProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [services, setServices] = useState<Service[]>(() => {
-    const saved = localStorage.getItem('dfw_rapid_services');
+    const saved = localStorage.getItem('dfw_rapid_services_v2');
     return saved ? JSON.parse(saved) : DEFAULT_SERVICES;
   });
 
   useEffect(() => {
-    localStorage.setItem('dfw_rapid_services', JSON.stringify(services));
+    localStorage.setItem('dfw_rapid_services_v2', JSON.stringify(services));
   }, [services]);
 
   const addService = (service: Service) => {

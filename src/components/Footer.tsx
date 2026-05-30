@@ -58,7 +58,6 @@ export default function Footer() {
             <ul className="space-y-2">
               {[
                 { name: 'Emergency Lockout', href: '/services/emergency' },
-                { name: 'Car Key Replacement', href: '/services/automotive' },
                 { name: 'Smart Lock Install', href: '/services/residential' },
                 { name: 'Lock Rekeying', href: '/services/residential' },
                 { name: 'Residential Security', href: '/services/residential' },

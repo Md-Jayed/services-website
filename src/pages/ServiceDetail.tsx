@@ -82,9 +82,9 @@ export default function ServiceDetail() {
                 Professional locksmith expertise available 24/7. We arrive in 15-20 minutes with fully equipped mobile units.
               </p>
               <div className="flex flex-wrap justify-center lg:justify-start gap-4">
-                <a href="tel:18005550199" className="bg-brand-gold hover:bg-white text-brand-navy px-8 py-4 rounded-xl font-black text-lg flex items-center gap-3 shadow-2xl transition-all hover:scale-105">
+                <a href="tel:2149230223" className="bg-brand-gold hover:bg-white text-brand-navy px-8 py-4 rounded-xl font-black text-lg flex items-center gap-3 shadow-2xl transition-all hover:scale-105">
                   <Phone size={20} fill="currentColor" />
-                  CALL NOW
+                  (214) 923-0223
                 </a>
               </div>
             </div>

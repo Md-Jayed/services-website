@@ -140,7 +140,6 @@ export default function Contact() {
                     <option value="automotive">Automotive Locksmith</option>
                     <option value="residential">Residential Locksmith</option>
                     <option value="commercial">Commercial Locksmith</option>
-                    <option value="key-replacement">Key Replacement</option>
                     <option value="other">Other / Security Consultation</option>
                   </select>
                   {errors.service && <span className="text-red-500 text-[10px] ml-1">{errors.service.message}</span>}

@@ -65,8 +65,8 @@ function CityServicePage() {
             Fast response times and expert technicians.
           </p>
           <div className="mt-10">
-            <a href="tel:18005550199" className="bg-brand-gold text-brand-navy px-10 py-4 rounded-xl font-bold text-xl inline-block">
-              Call {cityName} Technician
+            <a href="tel:2149230223" className="bg-brand-gold text-brand-navy px-10 py-4 rounded-xl font-bold text-xl inline-block">
+              Call (214) 923-0223
             </a>
           </div>
         </div>

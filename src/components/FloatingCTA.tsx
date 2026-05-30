@@ -6,7 +6,7 @@ export default function FloatingCTA() {
   return (
     <div className="fixed bottom-6 right-6 z-40 lg:hidden pointer-events-none">
       <motion.a
-        href="tel:18005550199"
+        href="tel:2149230223"
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         whileHover={{ scale: 1.1 }}

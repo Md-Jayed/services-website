@@ -12,8 +12,8 @@ const faqs = [
     answer: 'Our average arrival time is between 15 and 20 minutes for emergency calls within our primary service areas. We dispatch the technician closest to your location immediately upon receiving your call.'
   },
   {
-    question: 'Can you replace high-tech car keys?',
-    answer: 'Absolutely. We specialize in cutting and programming high-security transponder keys, laser-cut keys, and keyless entry remotes (fobs) for nearly all makes and models on the market.'
+    question: 'Do you install high-security deadbolts?',
+    answer: 'Yes, we professionally install a wide variety of commercial and residential high-security locks and heavy-duty deadbolts. We can also help integrate these with your existing physical security setup.'
   },
   {
     question: 'Do you install smart locks?',

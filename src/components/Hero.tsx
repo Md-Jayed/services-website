@@ -100,7 +100,7 @@ export default function Hero() {
                   <label className="block text-[10px] font-black text-gray-500 uppercase mb-1 ml-1">Service Type</label>
                   <select className="w-full px-4 py-2.5 bg-brand-bg border border-gray-200 rounded-xl focus:outline-none focus:border-brand-gold font-medium text-sm appearance-none">
                     <option>Emergency Lockout</option>
-                    <option>Car Key Replacement</option>
+                    <option>Automotive Lockout</option>
                     <option>Residential Lock Repair</option>
                     <option>Smart Lock Installation</option>
                   </select>

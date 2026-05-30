@@ -150,7 +150,7 @@ export default function Admin() {
                           value={formData.title}
                           onChange={e => setFormData({ ...formData, title: e.target.value })}
                           className="w-full bg-brand-bg border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-brand-gold font-bold text-brand-navy"
-                          placeholder="Car Key Replacement"
+                          placeholder="Automotive Lockout"
                         />
                       </div>
                       <div className="space-y-2">
@@ -162,7 +162,7 @@ export default function Admin() {
                           value={formData.slug}
                           onChange={e => setFormData({ ...formData, slug: e.target.value })}
                           className="w-full bg-brand-bg border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-brand-gold font-bold text-brand-navy"
-                          placeholder="car-key-replacement"
+                          placeholder="automotive-lockout"
                         />
                       </div>
                     </div>
@@ -173,7 +173,7 @@ export default function Admin() {
                         value={formData.subtitle}
                         onChange={e => setFormData({ ...formData, subtitle: e.target.value })}
                         className="w-full bg-brand-bg border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-brand-gold font-bold text-brand-navy"
-                        placeholder="Professional Vehicle Key Services"
+                        placeholder="Emergency Vehicle Door & Trunk Unlock Solutions"
                       />
                     </div>
 
